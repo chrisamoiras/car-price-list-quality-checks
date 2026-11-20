@@ -1,0 +1,17 @@
+option_code,description,category,net_price,available_for,rule
+OP01,Metallic paint,Exterior,840,ALL,
+OP02,19-inch alloy wheels,Exterior,1180,ALL,
+OP03,Panoramic glass roof,Exterior,1530,NL2;NL2D;NL3;NL4;NL6,
+OP04,Tow hitch,Exterior,710,NL3;NL4;NL6,EXCLUDES_FUEL=EV
+OP05,Sport seats,Interior,990,ALL,REQUIRES_TRIM=SPORT
+OP06,Leather upholstery,Interior,2040,ALL,EXCLUDES_TRIM=BASE
+OP07,Heated front seats,Interior,430,ALL,
+OP08,Head-up display,Technology,1090,NL2;NL2D;NL4;NL5;NL6;NLE1,
+OP09,Premium sound system,Technology,920,ALL,
+OP10,Adaptive cruise control,Driver assistance,1280,ALL,
+OP11,Parking assistant with 360 camera,Driver assistance,1010,ALL,
+OP12,Adaptive LED headlights,Exterior,1150,ALL,
+OP13,Heat pump,Technology,980,NLE1;NL6,
+OP15,Third row seats,Interior,1730,NL4;NL6,
+OP16,Comfort access (keyless),Technology,580,ALL,
+OP17,Wireless charging pad,Technology,310,ALL,

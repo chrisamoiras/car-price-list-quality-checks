@@ -1,0 +1,14 @@
+check,item_type,code,detail
+C01 Variant missing in export,VARIANT,NL3-SPORTPLUS,"approved net 34990, not loaded"
+C02 Variant not in approved list,VARIANT,NL3-BASE,still ACTIVE at net 28700
+C03 Duplicate code,VARIANT,NLE1-LUX,row appears more than once
+C04 Variant net price != approved,VARIANT,NL2-LUX,export 38920 vs approved 39700 (still MY2026 price)
+C04 Variant net price != approved,VARIANT,NL4-SPORT,export 51810 vs approved 51180 (typo?)
+C05 Retail != rule (VAT/tax error),VARIANT,NL1-SPORT,export retail 31620 vs rule 34440
+C05 Retail != rule (VAT/tax error),VARIANT,NL4-SPORT,export retail 81890 vs rule 82900
+C06 Retail not rounded to 10,VARIANT,NL5-BASE,retail 86337
+C07 EV with CO2 > 0,VARIANT,NLE1-BASE,CO2 120.0 g/km -> tax charged
+C08 Option not in approved list,OPTION,OP14,still ACTIVE at net 1350
+C09 Option net price != approved,OPTION,OP10,export 1240 vs approved 1280
+C10 Option availability breaks rule,OPTION,OP04,EXCLUDES_FUEL=EV but offered on NLE1
+C11 Package >= sum of its options,PACKAGE,PK03,package 1450 vs options 1410
